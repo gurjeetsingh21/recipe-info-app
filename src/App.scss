@@ -1,0 +1,76 @@
+.body {
+  background: #fafafa;
+}
+
+.container-fluid {
+  width: 1010px;
+  .div-container {
+    .card {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 15px 15px 0;
+      text-align: left;
+      background-color: #fff;
+      position: relative;
+      border: none;
+      box-shadow: none;
+      box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
+        0 3px 1px 0 rgba(20, 23, 28, 0.1);
+      opacity: 1;
+      .card:hover::after {
+        opacity: 0;
+        box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+      }
+      .recipe-details {
+        color: #29303b;
+        display: block;
+        font-size: 13px;
+        .card-details {
+          padding: 12px 15px;
+          display: block;
+          strong {
+            font-weight: 700;
+          }
+          .recipe-name {
+            height: 39px;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+.image {
+  height: 50%;
+  width: 100%;
+}
+
+.MuiTypography-body1 {
+  font-size: 13px !important;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  min-height: 0px !important;
+  height: 30px;
+}
+
+.MuiAccordionSummary-root,
+.MuiAccordionDetails-root {
+  padding: 0px !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+
+.recipe-details-image {
+  height: 400px;
+  width: 400px;
+  float: left;
+  margin-right: 10px;
+}
